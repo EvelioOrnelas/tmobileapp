@@ -20,3 +20,6 @@ $npm install
 // Run app
 $npm start
 ```
+
+![overview](overview.png)
+![statistics](statistics.png)
