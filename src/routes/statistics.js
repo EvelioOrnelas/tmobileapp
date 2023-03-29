@@ -15,7 +15,7 @@ function Statistics() {
             try {
                 let response = await fetch(Endpoint.STATISTICS);
                 let data = await response.json();
-                //console.log(data)
+                // console.log(data)
                 //console.log(data.WLAN)
                 const LAN = data.LAN.map(function(data) {
                     return {
@@ -81,7 +81,7 @@ function Statistics() {
         //console.log(twoGHz);
 
         function Status(index) {
-            if(index === 0) { return 'Up'}
+            if(index !== 0) { return 'Up'}
             else { return 'Down'}
         }
         function isUndefined(string) {

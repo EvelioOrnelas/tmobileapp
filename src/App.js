@@ -4,8 +4,9 @@ import NavBar from './components/Navbar'
 import Overview from './routes/overview'
 import Devices from './routes/devices'
 import Statistics from './routes/statistics'
+import System from './routes/system'
 //import useToken from './components/useToken'
-//import Footer from './components/Footer'
+// import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route exact path='/overview' element={<Overview/>}/>
           <Route exact path='/devices' element={<Devices/>}/>
           <Route exact path='/statistics' element={<Statistics/>}/>
+          <Route exact path='system' element={<System/>}/>
         </Routes>
       </Router>
       {/* <Footer/> */}

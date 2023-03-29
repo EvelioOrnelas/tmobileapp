@@ -41,6 +41,7 @@ const NavBar = ({handleLoginClick/*, setToken*/}) => {
             <Nav.Link href="overview"><b style={{color: 'white'}}>Overview</b></Nav.Link>
             <Nav.Link href="devices"><b style={{color: 'white'}}>Devices</b></Nav.Link>
             <Nav.Link href="statistics"><b style={{color: 'white'}}>Statistics</b></Nav.Link>
+            <Nav.Link href="system"><b style={{color: 'white'}}>System</b></Nav.Link>
           </Nav>
           <Nav className="ml-auto">
             <Nav.Link onClick={handleShow}><b style={{color: 'white', whiteSpace: 'nowrap'}}>Log In</b></Nav.Link>
